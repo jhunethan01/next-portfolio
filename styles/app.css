@@ -1,0 +1,59 @@
+:root {
+    --text-color: #bbbbbb;
+    --white-color: #ededed;
+    --black-color: #131313;
+}
+
+main {
+    padding-top: 150px;
+}
+
+.home-container {
+    padding: 80px;
+}
+
+.description {
+    max-width: 800px;
+    text-align: center;
+    margin: 20px 0 300px 0;
+}
+
+.section {
+    padding: 30px;
+    margin-bottom: 80px;
+    width: 100%;
+
+    border: 1px solid var(--black-color);
+    border-radius: 5px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.skill-box {
+    border: var(--black-color) 1px solid;
+    padding: 5px 10px;
+}
+
+.small-column {
+    width: 15%;
+    padding: 20px;
+}
+
+.experience-table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    margin-bottom: 30px;
+}
+
+.card-body>*{
+    margin-bottom:20px;
+}
+
+.card{
+    margin-bottom: 30px;
+}
