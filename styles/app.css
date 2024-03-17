@@ -2,10 +2,30 @@
     --text-color: #bbbbbb;
     --white-color: #ededed;
     --black-color: #131313;
+    --grey-color: #191919;
+}
+
+body{
+    background-image: url('/images/gradient.webp');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: var(--black-color);
+    color: var(--text-color);
+    font-family: '          ubuntu', sans-serif
 }
 
 main {
     padding-top: 150px;
+}
+
+.header-container{
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--white-color);
+    
+    height: fit-content;
+    padding: 40px 80px;
+
+    margin-bottom: 80px;
 }
 
 .home-container {
@@ -15,7 +35,7 @@ main {
 .description {
     max-width: 800px;
     text-align: center;
-    margin: 20px 0 300px 0;
+    margin: 20px 0 0 0;
 }
 
 .section {
@@ -23,7 +43,7 @@ main {
     margin-bottom: 80px;
     width: 100%;
 
-    border: 1px solid var(--black-color);
+    border: 1px solid var(--white-color);
     border-radius: 5px;
 }
 
@@ -35,7 +55,7 @@ main {
 }
 
 .skill-box {
-    border: var(--black-color) 1px solid;
+    border: var(--white-color) 1px solid;
     padding: 5px 10px;
 }
 
@@ -55,5 +75,16 @@ main {
 }
 
 .card{
+    color: var(--white-color);
+    background-color: var(--grey-color);
     margin-bottom: 30px;
+    padding: 20px 10px;
+}
+
+.card-body>img{
+    filter: brightness(0.5);
+}
+
+.btn{
+    border: 1px solid var(--white-color);
 }

@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>
+        <div className="header-container">
           <Header title="Ethan Lay - Full Stack Web Developer" />
           <p className="description">
             A full stack web developer with two years of experience. I have primarily worked with CodeIgniter, but I also have experience with React, Next.js, and Laravel. I'm passionate about building scalable and efficient web applications.
