@@ -72,10 +72,14 @@ main {
     padding: 20px;
 }
 
-.experience-table {
+.experience-grid {
     border-collapse: separate;
     border-spacing: 0 20px;
     margin-bottom: 30px;
+}
+
+.experience-item{
+    margin-bottom: 20px;
 }
 
 .card-body>*{
@@ -97,4 +101,14 @@ main {
     font-weight: bold;
     padding: 10px 20px;
     border: 1px solid var(--white-color);
+}
+
+@media (max-width: 767px) {
+    .home-container {
+        padding: 10px;
+    }
+
+    .header-container{
+        padding: 20px;
+    }
 }
