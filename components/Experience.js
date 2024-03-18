@@ -29,7 +29,8 @@ const Experience = () => {
                             enhancing existing features and implementing new functionalities.
                         </li>
                         <li>
-                            Developed an automated database repair tool that proactively id
+                        Developed an automated database repair tool that proactively identifies and restores corrupted database records,
+ensuring the website’s stability and preventing downtime.
                         </li>
                     </ul>
                     <div className='skills-container'>
