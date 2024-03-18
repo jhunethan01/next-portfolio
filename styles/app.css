@@ -57,6 +57,14 @@ main {
 .skill-box {
     border: var(--white-color) 1px solid;
     padding: 5px 10px;
+
+    user-select: none;
+    transition: all 0.3s;
+}
+
+.skill-box:hover{
+    background-color: var(--white-color);
+    color: var(--black-color);
 }
 
 .small-column {
@@ -86,5 +94,7 @@ main {
 }
 
 .btn{
+    font-weight: bold;
+    padding: 10px 20px;
     border: 1px solid var(--white-color);
 }
