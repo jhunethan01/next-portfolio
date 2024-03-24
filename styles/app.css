@@ -158,6 +158,7 @@ main {
     top: 0;
     left: 0;
     width: 100%;
+    max-width: 100vw;
     z-index: 3;
     display: flex;
     padding-top: 15px;
@@ -204,5 +205,17 @@ main {
 
     .header-container {
         padding: 20px;
+    }
+}
+
+
+@media (max-width: 426px) {
+    .nav-links-item {
+        padding: 15px 0px;
+        margin: 0 2.5px;
+    }
+    
+    .nav-links-item-active {
+        padding: 10px 15px;
     }
 }

@@ -11,14 +11,14 @@ const Nav = () => {
                 about: document.getElementById('about').offsetTop - 200,
                 experience: document.getElementById('experience').offsetTop - 200,
                 projects: document.getElementById('projects').offsetTop - 200,
-                contact: document.documentElement.scrollHeight - window.innerHeight
+                contact: document.documentElement.scrollHeight - window.innerHeight - 100
             }
             const scrollPosition = window.scrollY;
 
             Object.keys(sections).forEach(section => {
                 const element = document.getElementById(section);
                 const offset = sections[section];
-                console.log(element.offsetTop, scrollPosition);
+                console.log(offset, scrollPosition);
                 if (offset <= scrollPosition && offset + element.offsetHeight > scrollPosition) {
                     setActiveSection(section);
                 }
