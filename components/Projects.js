@@ -2,10 +2,10 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className="row section" id='projects'>
+        <div className="d-flex flex-row row section" id='projects'>
             <h1 className='projects-heading'>Projects</h1>
             <div className="project-item col-md-6">
-                <div className="card">
+                <div className="card m-2">
                     <div className="card-body">
                         <h5 className="card-title">React Customer Relationship Manager Dashboard</h5>
                         <div className='skills-container'>
@@ -39,7 +39,7 @@ const Projects = () => {
             </div>
 
             <div className="project-item col-md-6">
-                <div className="card">
+                <div className="card m-2">
                     <div className="card-body">
                         <h5 className="card-title">Plant Shop using Next.js</h5>
                         <div className='skills-container'>
@@ -66,7 +66,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="project-item col-md-6">
-                <div className="card">
+                <div className="card m-2">
                     <div className="card-body">
                         <h5 className="card-title">Laravel Shop with Comparison Tool</h5>
                         <div className='skills-container'>
