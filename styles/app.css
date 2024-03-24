@@ -12,8 +12,13 @@ body {
     background-repeat: no-repeat;
     background-color: var(--black-color);
     color: var(--text-color);
-    font-family: 'ubuntu', sans-serif;
+    font-family: __inter_Fallback_20b187, ui-sans-serif, system-ui, -apple-system, "system-ui", Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
     transition: all 0.3s;
+
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 main {
@@ -21,13 +26,19 @@ main {
 }
 
 .header-container {
-    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.2);
-    border: 1px solid var(--light-grey-color);
-
     height: fit-content;
     padding: 40px 80px;
 
     margin-bottom: 80px;
+}
+
+.title{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.green{
+    color: #00ff99;
 }
 
 .home-container {
@@ -41,13 +52,16 @@ main {
 }
 
 .section {
+    background: var(--black-color);
+    
     padding: 30px;
-    margin-bottom: 80px;
     width: 100%;
+}
 
-    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.2);
-    border: 1px solid var(--light-grey-color);
-    border-radius: 5px;
+.subtitle{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
 }
 
 .skills-container {
@@ -82,11 +96,41 @@ main {
 }
 
 .experience-item {
-    margin-bottom: 20px;
+    margin: 20px 0;
+}
+
+.experience-date{
+    margin: 0 0 5px 0;
+}
+
+.projects-heading{
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white-color);
+    letter-spacing: 1px;
+
+    margin-bottom: 15px;
+}
+
+.project-item{
+    padding: 0;
+}
+
+.card{
+    border: 1px solid #2d2d2d;
+    background-color: #1c1c1c;;
+    background-image: linear-gradient(to right, #1c1c1c 10%, #222222);
 }
 
 .card-body>* {
     margin-bottom: 20px;
+}
+
+.card-title{
+    font-size:18px;
+    font-weight: normal;
+    color: white;
 }
 
 .card {
@@ -101,9 +145,10 @@ main {
 }
 
 .btn {
-    font-weight: bold;
+    font-size: 14px;
     padding: 10px 20px;
-    border: 1px solid var(--white-color);
+    border: 1px solid #2d2d2d;
+    background-color: #1c1c1c;;
 }
 
 nav {

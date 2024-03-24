@@ -2,10 +2,8 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div className="project-grid row section" id='projects'>
-            <div className="project-item col-md-12">
-                <h2>Projects</h2>
-            </div>
+        <div className="row section" id='projects'>
+            <h1 className='projects-heading'>Projects</h1>
             <div className="project-item col-md-6">
                 <div className="card">
                     <div className="card-body">

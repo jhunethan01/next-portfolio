@@ -19,9 +19,10 @@ export default function Home() {
       <Nav />
       <main>
         <div className="header-container" id='home'>
-          <Header title="Ethan Lay - Full Stack Web Developer" />
+          <h1 className="title">Hello. I'm Ethan.</h1>
+          <h1 className="title green">Full Stack Web Developer</h1>
           <p className="description">
-            A full stack web developer with two years of experience. I have primarily worked with CodeIgniter, but I also have experience with React, Next.js, and Laravel. I'm passionate about building scalable and efficient web applications.
+            A full stack web developer with two years of experience. I have primarily worked with CodeIgniter (PHP), but I also have experience with React, Next.js, and Laravel.
           </p>
         </div>
 
