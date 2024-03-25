@@ -10,26 +10,25 @@ const Experience = () => {
                     <p className='experience-date'>Main Event Travel [ Nov 2021 - Present ]</p>
                     <ul>
                         <li>
-                            HTML/CSS + JavaScript front end, PHP back end using CodeIgniter 3/4, Database using SQL
+                            Main Event Travel is a provider of flights, hotels, buy ins and news for poker events around the world.
                         </li>
                         <li>
-                            Developed numerous new features, working with every aspect of the site, resulting in improved ease of use for both
-                            administration and customers.
+                            Independently launched <a href='https://maineventdealers.com' target='__blank'>Main Event Dealers</a> leading to the recruitment of 50+ dealers
                         </li>
                         <li>
-                            Conceptualized, and developed an automated email campaign system from scratch that reaches over 5,000
-                            customers, significantly boosting customer engagement and brand awareness.
+                            Conceptualized, and <b>developed an automated email and push notification campaign system</b> from scratch
+                            that reaches over 5,000 customers, significantly boosting customer engagement and brand awareness.
                         </li>
                         <li>
-                            Successfully integrated an analytic feature that seamlessly tracked revenue and page views across the organization’s
-                            website, providing valuable insights for informed decision-making.
+                            <b>Created a custom website analytics feature</b> to seamlessly track revenue and user behavior, enabling
+                            data-driven decision-making.
                         </li>
                         <li>
-                            Proven ability to navigate and maintain complex legacy code bases, identifying and rectifying existing bugs while
-                            enhancing existing features and implementing new functionalities.
+                            Proven ability to navigate and <b>maintain complex 10+ year old legacy code bases</b>, identifying and rectifying
+                            existing bugs while enhancing existing features and implementing new functionalities.
                         </li>
                         <li>
-                            Developed an automated database repair tool that proactively identifies and restores corrupted database records,
+                            <b>Developed an automated database repair tool</b> that proactively identifies and restores corrupted database records,
                             ensuring the website’s stability and preventing downtime.
                         </li>
                     </ul>
@@ -49,18 +48,14 @@ const Experience = () => {
                     <p className='experience-date'>Northcoders [ Apr 2021 - Aug 2021 ]</p>
                     <ul>
                         <li>
-                            Gained a comprehensive understanding of React and web development principles.
+                            Attended and <b>completed a full time 14-week coding bootcamp</b> where I learnt a plethora of invaluable skills
+                            and practices as well as a number of coding languages.
                         </li>
                         <li>
-                            Developed a strong foundation in full-stack web development, focusing on JavaScript and React.
-                            administration and customers.
+                            Developed a strong foundation in full-stack web development, focusing on <b>JavaScript and React</b>.
                         </li>
                         <li>
-                            Mastered the full stack web development process, from planning and design with Figma to implementation and
-                            deployment.
-                        </li>
-                        <li>
-                            Collaborated with diverse teams of varying roles and sizes, contributing to the completion of sprint-based projects,
+                            <b>Collaborated with diverse teams of varying roles and sizes</b>, contributing to the completion of sprint-based projects,
                         </li>
                     </ul>
                     <div className='skills-container'>
