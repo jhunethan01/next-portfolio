@@ -4,7 +4,7 @@ const Projects = () => {
     return (
         <div className="d-flex flex-row row section" id='projects'>
             <h1 className='projects-heading'>Projects</h1>
-            <div className="project-item col-md-6">
+            <div className="project-item col-md-12">
                 <div className="card m-2">
                     <div className="card-body">
                         <h5 className="card-title">React Customer Manager</h5>
@@ -17,13 +17,13 @@ const Projects = () => {
                         </div>
                         <img src="/images/react_crm_screenshot.png" alt="React Customer Relationship Manager Dashboard" style={{ maxWidth: '100%', height: 'auto' }} />
                         <div style={{ display: 'flex', gap: '10px' }}>
-                            <a className="btn btn-dark" href='https://github.com/jhunethan01/react_crm'>Code &lt;/&gt;</a>
-                            <a className="btn btn-dark" href='https://delightful-marzipan-66e584.netlify.app/'>Website</a>
+                            <a className="btn btn-dark" target='__blank' href='https://github.com/jhunethan01/react_crm'>Code &lt;/&gt;</a>
+                            <a className="btn btn-dark" target='__blank' href='https://delightful-marzipan-66e584.netlify.app/'>Website</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="project-item col-md-6">
+            <div className="project-item col-md-12">
                 <div className="card m-2">
                     <div className="card-body">
                         <h5 className="card-title">Plant Shop using Next.js</h5>
@@ -35,13 +35,13 @@ const Projects = () => {
                         </div>
                         <img src="/images/plant_shop_image.png" alt="Plant Shop using Next.js" style={{ maxWidth: '100%', height: 'auto' }} />
                         <div style={{ display: 'flex', gap: '10px' }}>
-                            <a className="btn btn-dark" href='https://github.com/jhunethan01/plant-shop'>Code &lt;/&gt;</a>
-                            <a className="btn btn-dark" href='https://elegant-bubblegum-ba6cc4.netlify.app/'>Website</a>
+                            <a className="btn btn-dark" target='__blank' href='https://github.com/jhunethan01/plant-shop'>Code &lt;/&gt;</a>
+                            <a className="btn btn-dark" target='__blank' href='https://elegant-bubblegum-ba6cc4.netlify.app/'>Website</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="project-item col-md-6">
+            <div className="project-item col-md-12">
                 <div className="card m-2">
                     <div className="card-body">
                         <h5 className="card-title">Laravel Shop with Comparison Tool</h5>
@@ -54,7 +54,7 @@ const Projects = () => {
                         </div>
                         <img src="/images/laravel_shop_image.png" alt="Laravel Shop" style={{ maxWidth: '100%', height: 'auto' }} />
                         <div style={{ display: 'flex', gap: '10px' }}>
-                            <a className="btn btn-dark" href='https://github.com/jhunethan01/laravel-shop'>Code &lt;/&gt;</a>
+                            <a className="btn btn-dark" target='__blank' href='https://github.com/jhunethan01/laravel-shop'>Code &lt;/&gt;</a>
                         </div>
                     </div>
                 </div>
